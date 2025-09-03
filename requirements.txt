@@ -1,0 +1,19 @@
+# API
+fastapi
+uvicorn
+
+# Sherlock deps (core/common)
+requests>=2.23.0
+requests-futures>=1.0.0
+beautifulsoup4
+lxml
+certifi
+colorama
+PySocks>=1.7.1
+
+# Optional tor support (safe to include; not required to run)
+stem
+torrequest
+
+# For fetching profile pics
+httpx
